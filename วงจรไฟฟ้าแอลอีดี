@@ -1,0 +1,45 @@
+void setup(){
+  pinMode(4,OUTPUT);//White
+  pinMode(3,OUTPUT);//Blue
+  pinMode(2,OUTPUT);//green
+  pinMode(1,OUTPUT);//yellow
+  pinMode(0,OUTPUT);//red
+}
+
+void loop()
+{
+  digitalWrite(4,LOW);
+  digitalWrite(3,LOW);
+  digitalWrite(2,LOW);
+  digitalWrite(1,LOW);
+  digitalWrite(0,HIGH);
+     delay(3000);
+  
+  digitalWrite(4,LOW);
+  digitalWrite(3,LOW);
+  digitalWrite(2,LOW);
+  digitalWrite(1,HIGH);
+  digitalWrite(0,LOW);
+     delay(3000);
+  
+   digitalWrite(4,LOW);
+  digitalWrite(3,LOW);
+  digitalWrite(2,LOW);
+  digitalWrite(1,LOW);
+  digitalWrite(0,HIGH);
+     delay(3000);
+  
+   digitalWrite(4,LOW);
+  digitalWrite(3,LOW);
+  digitalWrite(2,LOW);
+  digitalWrite(1,LOW);
+  digitalWrite(0,HIGH);
+     delay(3000);
+  
+   digitalWrite(4,LOW);
+  digitalWrite(3,LOW);
+  digitalWrite(2,LOW);
+  digitalWrite(1,LOW);
+  digitalWrite(0,HIGH);
+     delay(3000);
+}
